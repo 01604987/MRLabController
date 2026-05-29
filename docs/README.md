@@ -1,3 +1,12 @@
+- [Instructions](#controller-instructions)
+- [Components](#components)
+- [Design](#work-in-progress-and-design)
+- [Downloads](#downloads)
+
+-------------------------------------------------------------
+
+# Controllers
+
 This page is dedicated to the trackable hand controllers built and provided to the TU Vienna MRLab for VR, AR and MR usecases.
 The game for which these were designed for during the 2026 summer course can be found here <a>google.com</a>, however, with the controllers plug'n play ability, integration into any game is easy and feasible in no time.
 
@@ -36,7 +45,7 @@ The controllers require a single AA battery.
 
 *By default the controllers should be active in the mode it was last configured. Wireless mode is preferred due to its superb range and stability over BT. <!-- insert led pic-->
 
-## Parts
+## Components
 - Mainboard from a 2018 mini wireless mouse model: PC128A
 - Completely 3D designed and printed housing consisting of multiple parts for each hand.
 - Multiple screws ranging from M2, M2.5 and M3
@@ -88,6 +97,3 @@ In the end the controllers may still have some rough/sharp corners and the use o
 - STL files
 - blender source file. Please install CAD Sketcher addon and Blender 4.3
 - [Ergonomic Handle by Anachronist](https://www.printables.com/model/154837-ergonomic-handle-based-on-scientific-study/files)
-
-
-## 
