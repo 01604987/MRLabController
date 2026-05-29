@@ -3,8 +3,6 @@ title: MRLabController by Kim
 description: Trackable VR/MR hand controllers for TU Wien MRLab
 theme: minima
 
-author: Ye-Ryun Kim
-github_username: 01604987
 
 url: "https://01604987.github.io"
-baseurl: "/MRlabController"
+baseurl: "/MRLabController"

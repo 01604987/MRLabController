@@ -3,8 +3,6 @@
 - [Design](#work-in-progress-and-design)
 - [Downloads](#downloads)
 
--------------------------------------------------------------
-
 # Controllers
 
 This page is dedicated to the trackable hand controllers built and provided to the TU Vienna MRLab for VR, AR and MR usecases.
