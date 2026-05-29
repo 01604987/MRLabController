@@ -1,5 +1,3 @@
-# MRLabController by Kim
-
 This page is dedicated to the trackable hand controllers built and provided to the TU Vienna MRLab for VR, AR and MR usecases.
 The game for which these were designed for during the 2026 summer course can be found here <a>google.com</a>, however, with the controllers plug'n play ability, integration into any game is easy and feasible in no time.
 
