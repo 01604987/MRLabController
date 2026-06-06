@@ -6,7 +6,7 @@
 # Controllers
 
 This page is dedicated to the trackable hand controllers built and provided to the TU Vienna MRLab for VR, AR and MR usecases.
-The game for which these were designed for during the 2026 summer course can be found here <a>google.com</a>, however, with the controllers plug'n play ability, integration into any game is easy and feasible in no time.
+The game for which these were designed for during the 2026 summer course can be found here [Mixed-Reality-Project](https://github.com/NouNio/Mixed-Reality-Project), however, with the controllers plug'n play ability, integration into any game is easy and feasible in no time.
 
 Below one can find instructions for the controllers, used components, work in progress photos and design iterations and at last source files for reprinting and potentially recreating these controllers.
 
@@ -92,6 +92,13 @@ In the end the controllers may still have some rough/sharp corners and the use o
 
 ## Downloads
 
-- STL files
+- STL files:
+    - [mrlab_controller.zip](https://github.com/01604987/MRLabController/releases/download/v1/mrlab_controller.zip)
+    - [glasses_tracker_mount.zip](https://github.com/01604987/MRLabController/releases/download/v1/glasses_tracker_mount.zip)
+
+- 3D printer file:
+    - [left_right_controller.3mf](https://github.com/01604987/MRLabController/releases/download/v1/left_right_controller.3mf)
 - blender source file. Please install CAD Sketcher addon and Blender 4.3
+    - [controller.blend.zip](https://github.com/01604987/MRLabController/releases/download/v1/controller.blend.zip)
+    - [glasses_tracker_mount.zip](https://github.com/01604987/MRLabController/releases/download/v1/glasses_tracker.blend.zip)
 - [Ergonomic Handle by Anachronist](https://www.printables.com/model/154837-ergonomic-handle-based-on-scientific-study/files)
