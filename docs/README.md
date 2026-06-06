@@ -3,7 +3,12 @@
 - [Design](#work-in-progress-and-design)
 - [Downloads](#downloads)
 
-# Controllers
+
+
+![Screenshot](/images/MRLAB_Simple_Controllers_3.jpg)
+
+
+# Project
 
 This page is dedicated to the trackable hand controllers built and provided to the TU Vienna MRLab for VR, AR and MR usecases.
 The game for which these were designed for during the 2026 summer course can be found here [Mixed-Reality-Project](https://github.com/NouNio/Mixed-Reality-Project), however, with the controllers plug'n play ability, integration into any game is easy and feasible in no time.
@@ -64,9 +69,15 @@ Essentially we had 2 ways of approaching this task.
 
 2) Use a wireless mouse and limited buttons with constrained capabilities. In turn we gain plug'n play capabilities and greatly reduced development time.
 
+
+![Screenshot](/images/MRLAB_Simple_Controllers_1.jpg)
+
 Due to the short project time and several lab constrains, namely difference between rendering PC and remote access PC, the decision fell onto option 2.
 
 The initial design was a simple strap on controller type where the main board would rest on the back of a hand, while the triggers in the palms needed to be pushed by closing the hands. That would enable a more hands free approach, as letting go of the controllers won't drop them.
+
+![Screenshot](/images/MRLAB_Simple_Controllers_2.jpg)
+
 
 However, despite of the small mouse mainboard, securely covering and enclosing each part would still result in a bulky design and way too many loose parts. So going forward, since the triggers needed to be inside the palms, a knuckle style controller became the first iteration.
 
@@ -87,7 +98,11 @@ Since the battery compartment would not fit into the same controller, it was pla
 The hardest part was designing a sensible and consistent adapter for mounting the retro-reflective trackers. The issue with these trackers is that they only have a single M2.5 screw hole that gets intensively tighter the further it is screwed in. Since the base of these trackers are also round there is basically no way of securely fixing them onto the plastic housing without stripping the 3D printed part and without the tracker getting loose with time.
 After long pondering, it seemed like the only realistic approach in near to no time is to add a threaded insert into the printed part and leave a screw sticking out of the controller. That way when the tracker screws into the screw, there should be no fear of stripping the 3D printed part when removing the tracker again. 
 
-In the end the controllers may still have some rough/sharp corners and the use of standard keyboard keycaps could be improved by 3D printed custom trigger keycaps, but I think it was an enjoyable little project that could benefit future projects and ideas for the MRLab. 
+
+With the controllers finally done, we still needed a solution for head tracking. For that a simple design to hold the already available trackers/balls was also quickly modelled and printed. The tracker mount are secured on the 3D glasses via screws and the holders are magnetized for fast and easy storage or swapping between users.
+
+
+In the end the controllers may still have some rough/sharp corners and the use of standard keyboard keycaps could be improved by 3D printed custom trigger keycaps, but I think overall the result came out great and could certainly be useful for future projects in the MRLab.
 
 
 ## Downloads
@@ -101,4 +116,6 @@ In the end the controllers may still have some rough/sharp corners and the use o
 - blender source file. Please install CAD Sketcher addon and Blender 4.3
     - [controller.blend.zip](https://github.com/01604987/MRLabController/releases/download/v1/controller.blend.zip)
     - [glasses_tracker_mount.zip](https://github.com/01604987/MRLabController/releases/download/v1/glasses_tracker.blend.zip)
-- [Ergonomic Handle by Anachronist](https://www.printables.com/model/154837-ergonomic-handle-based-on-scientific-study/files)
+
+- Ergonomic Handle by Anachronist:
+    - [https://www.printables.com/model/154837-ergonomic-handle-based-on-scientific-study/files](https://www.printables.com/model/154837-ergonomic-handle-based-on-scientific-study/files)
