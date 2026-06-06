@@ -5,7 +5,7 @@
 - [License](#license)
 
 
-![Screenshot](/images/MRLAB_Simple_Controllers_3.jpg)
+![Screenshot](images/MRLAB_Simple_Controllers_3.jpg)
 
 
 # Project
@@ -70,13 +70,13 @@ Essentially we had 2 ways of approaching this task.
 2) Use a wireless mouse and limited buttons with constrained capabilities. In turn we gain plug'n play capabilities and greatly reduced development time.
 
 
-![Screenshot](/images/MRLAB_Simple_Controllers_1.jpg)
+![Screenshot](images/MRLAB_Simple_Controllers_1.jpg)
 
 Due to the short project time and several lab constrains, namely difference between rendering PC and remote access PC, the decision fell onto option 2.
 
 The initial design was a simple strap on controller type where the main board would rest on the back of a hand, while the triggers in the palms needed to be pushed by closing the hands. That would enable a more hands free approach, as letting go of the controllers won't drop them.
 
-![Screenshot](/images/MRLAB_Simple_Controllers_2.jpg)
+![Screenshot](images/MRLAB_Simple_Controllers_2.jpg)
 
 
 However, despite of the small mouse mainboard, securely covering and enclosing each part would still result in a bulky design and way too many loose parts. So going forward, since the triggers needed to be inside the palms, a knuckle style controller became the first iteration.
