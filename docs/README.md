@@ -5,7 +5,7 @@
 - [License](#license)
 
 
-![Screenshot](images/MRLAB_Simple_Controllers_3.jpg)
+![MRLabProject](images/MRLAB_Simple_Controllers_3.jpg)
 
 
 # Project
@@ -70,18 +70,21 @@ Essentially we had 2 ways of approaching this task.
 2) Use a wireless mouse and limited buttons with constrained capabilities. In turn we gain plug'n play capabilities and greatly reduced development time.
 
 
-![Screenshot](images/MRLAB_Simple_Controllers_1.jpg)
+![Initial_idea1](images/MRLAB_Simple_Controllers_1.jpg)
 
 Due to the short project time and several lab constrains, namely difference between rendering PC and remote access PC, the decision fell onto option 2.
 
 The initial design was a simple strap on controller type where the main board would rest on the back of a hand, while the triggers in the palms needed to be pushed by closing the hands. That would enable a more hands free approach, as letting go of the controllers won't drop them.
 
-![Screenshot](images/MRLAB_Simple_Controllers_2.jpg)
+![Initial_idea2](images/MRLAB_Simple_Controllers_2.jpg)
 
 
 However, despite of the small mouse mainboard, securely covering and enclosing each part would still result in a bulky design and way too many loose parts. So going forward, since the triggers needed to be inside the palms, a knuckle style controller became the first iteration.
 
 All 3D models and print stl files were designed in blender with an addon called CAD Sketcher. It combines parameterised workflow with blenders extensive and intuitive tools for 3D printing and enables quick and safe edits and iterations. With that tool blender was used as a CAD program.
+
+
+![Iterations](images/MRLab_controller_iteration.jpg)
 
 The first protype controllers were relatively small and the whole mainboard could still fit in nicely. The grip was ok, but definitely not suited for larger hands. Also missing were some space for other buttons and wiring up the internals would certainly become a challenge.
 
@@ -93,18 +96,28 @@ For the triggers, keyboard switches were chosen due to their simplicity, fit and
 
 The other thumb buttons are simple push buttons because of the constrained space and simple flat surfaces. 
 
+
+
+| ![](images/MRLab_left_ctrl_inside.jpg) | ![](images/MRLab_right_ctrl_inside.jpg) |
+|-----------|-----------|
+| Left Controller | Right Controller |
+
+
+
 Since the battery compartment would not fit into the same controller, it was placed inside the right grip and connected via cat6e ethernet cable that was still long, sturdy and flexible enough to not get into the way during gameplay. A 2 m long cable seems especially fitting for future projects that may require players to use their whole armlength motion. In case these controllers needed to be used for multiplayer interaction and thus a longer cable is required, a potential solution would be to cut the cable right in the middle and install plugs to close the connection again. That way an extension cable could be plugged into both sides right in the middle without re soldering the internals.
 
-The hardest part was designing a sensible and consistent adapter for mounting the retro-reflective trackers. The issue with these trackers is that they only have a single M2.5 screw hole that gets intensively tighter the further it is screwed in. Since the base of these trackers are also round there is basically no way of securely fixing them onto the plastic housing without stripping the 3D printed part and without the tracker getting loose with time.
+The hardest part was designing a sensible and consistent adapter for mounting the retro-reflective trackers. The issue with these trackers is that they only have a single M2.5 screw hole that gets intensively tighter the further it is screwed in. Since the base of these trackers are also round there is basically no way of securely fixing them onto the plastic housing without stripping the 3D printed part and without the tracker getting loose with time
 After long pondering, it seemed like the only realistic approach in near to no time is to add a threaded insert into the printed part and leave a screw sticking out of the controller. That way when the tracker screws into the screw, there should be no fear of stripping the 3D printed part when removing the tracker again. 
 
 
 With the controllers finally done, we still needed a solution for head tracking. For that a simple design to hold the already available trackers/balls was also quickly modelled and printed. The tracker mount are secured on the 3D glasses via screws and the holders are magnetized for fast and easy storage or swapping between users.
 
+![MRLabGlasses](images/MRLab_glasses.jpg)
+
 
 In the end the controllers may still have some rough/sharp corners and the use of standard keyboard keycaps could be improved by 3D printed custom trigger keycaps, but I think overall the result came out great and could certainly be useful for future projects in the MRLab.
 
-
+![MRLabController](images/MRLab_controllers.jpg)
 ## Downloads
 
 - STL files:
