@@ -2,7 +2,7 @@
 - [Components](#components)
 - [Design](#work-in-progress-and-design)
 - [Downloads](#downloads)
-
+- [License](#license)
 
 
 ![Screenshot](/images/MRLAB_Simple_Controllers_3.jpg)
@@ -87,7 +87,7 @@ The first protype controllers were relatively small and the whole mainboard coul
 
 By iteration 8, a strong grip design started to form and added curves for an ergonomic handle transformed the controllers into something suitable for various hand sizes. Because the housing needed to be 3D printable, they were by design already sperated by multiple parts that can be screwed together with a couple M2 screws.
 
-The curve and ergonomics were achieved through boolean with a model designed by someone based on several [research papers regarding ergonomic handles](https://www.nablu.com/2022/03/whose-hands-are-biggest-you-may-be.html).
+The curve and ergonomics were achieved through boolean with a model designed by <b>Anachronist</b> based on several [research papers regarding ergonomic handles](https://www.nablu.com/2022/03/whose-hands-are-biggest-you-may-be.html).
 
 For the triggers, keyboard switches were chosen due to their simplicity, fit and customizability. Installed are default cherry profile keycaps with 1.75U size from CAPS lock key and Shift key. However, any similar sized keycaps can be interchanged.
 
@@ -117,5 +117,20 @@ In the end the controllers may still have some rough/sharp corners and the use o
     - [controller.blend.zip](https://github.com/01604987/MRLabController/releases/download/v1/controller.blend.zip)
     - [glasses_tracker_mount.zip](https://github.com/01604987/MRLabController/releases/download/v1/glasses_tracker.blend.zip)
 
-- Ergonomic Handle by Anachronist:
+- Ergonomic Handle by Anachronist (CC BY 4.0):
     - [https://www.printables.com/model/154837-ergonomic-handle-based-on-scientific-study/files](https://www.printables.com/model/154837-ergonomic-handle-based-on-scientific-study/files)
+
+
+
+## License
+
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+This work and directly downloadable files are licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
