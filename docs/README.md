@@ -109,6 +109,10 @@ Since the battery compartment would not fit into the same controller, it was pla
 The hardest part was designing a sensible and consistent adapter for mounting the retro-reflective trackers. The issue with these trackers is that they only have a single M2.5 screw hole that gets intensively tighter the further it is screwed in. Since the base of these trackers are also round there is basically no way of securely fixing them onto the plastic housing without stripping the 3D printed part and without the tracker getting loose with time
 After long pondering, it seemed like the only realistic approach in near to no time is to add a threaded insert into the printed part and leave a screw sticking out of the controller. That way when the tracker screws into the screw, there should be no fear of stripping the 3D printed part when removing the tracker again. 
 
+| ![](images/3D_right_ctrl.jpg) | ![](images/3D_right_ctrl_expanded.jpg) |
+|-----------|-----------|
+| Right Controller 3D| Right Controller expanded 3D |
+
 
 With the controllers finally done, we still needed a solution for head tracking. For that a simple design to hold the already available trackers/balls was also quickly modelled and printed. The tracker mount are secured on the 3D glasses via screws and the holders are magnetized for fast and easy storage or swapping between users.
 
